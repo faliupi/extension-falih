@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Emosync for Students",
+  "description": "Vite Level Extension",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.svg"
+  },
+
+  "icons": {
+    "72": "icon-72x72.png",
+    "96": "icon-72x72.png",
+    "128": "icon-72x72.png"
+  },
+  "permissions": ["storage", "scripting", "tabs", "activeTab"],
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqkSwpVEsNGNOkTcuAHSixqXUp+y6/CSXy+2fSSOK2M+Np4G0L66SuD09My6nX4mEFgBRA4r2IZc6LKAS3f5MG/h147QI4ckQw+m86v4o1Yk7zFF9f7G4k0WH41lW1Z1KOzKndTqcKsPBwuRybd/FncJOA3MrjFPPSywhsSPsNeXCJeaBOhEOLEKBe+e/qPiBW8Wgt7AGo7PCl4EsmEK7QWGbHBpJ7LwyCMnbgImhYsDK0+0oe24m4+TpDOaigzqKFyK9n8HwtYtvrIP+vYXu+UKMONS9aAVxBsEvONqIdUgsOpii9GgTs4zHA5V0DaJgio/xufU/7D9FRczXKK7FMwIDAQAB"
+}
